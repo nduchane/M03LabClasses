@@ -1,3 +1,8 @@
+# Nicholas DuChane
+# M03LabClasses
+# Creates a Vehicles and automotive class and gets users info for those.
+# Variables include Automotive with parameters.
+
 class Vehicle:
     def __init__(self, name):
         self.name = name
