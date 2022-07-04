@@ -3,6 +3,7 @@
 # Creates a Vehicles and automotive class and gets users info for those.
 # Variables include Automotive with parameters.
 
+# Classes
 class Vehicle:
     def __init__(self, name):
         self.name = name
@@ -15,6 +16,7 @@ class Automobile(Vehicle):
         self.doors = doors
         self.roof = roof
 
+# Program start
 print("What type of vehicle is this?")
 userveh = Automobile(input())
 print("year?")
@@ -28,6 +30,7 @@ userveh.doors = input()
 print("roof?")
 userveh.roof = input()
 
+# Program end | Print user inputs
 print("Vehicle type: " + userveh.name)
 print("Year: " + userveh.year)
 print("Make: " + userveh.make)
